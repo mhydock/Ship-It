@@ -112,7 +112,7 @@ When the deadline is reached, the *Development* phase ends, and the *Release* ph
 
 At the very least, the *Development Team* needs to have implemented the base features laid out in the  *Product Brief* in order to claim that they have produced a complete product. This includes any feature requests that were moved into the *Product Brief* via the expenditure of *Investment Tokens*.
 
-Implementing all the base features produces an *Adequate Product*. Implementing any number of extraneous features produces a *Superior Product*. Failing to implement all of the base features results in an *Incomplete Product*, the only failure case.
+Implementing all the base features produces an *Adequate Product*. Implementing any number of extraneous features in addition to all the base features produces a *Superior Product*. Failing to implement all of the base features results in an *Incomplete Product*, the only failure case.
 
 The *Client* and the *Development Team* win or lose together; the *Client* promised investors that a finished product would be created, and the *Development Team* promised the client that they could deliver said product.
 
