@@ -42,6 +42,8 @@ The client can be one of the following types:
 
 After a *Client Type* has been selected, the client can then construct the *Product Brief* using cards selected from the *Product Brief* deck, which includes cards describing features and platforms, with rough guidelines on the tasks required to complete them.
 
+Lastly, the client gets one *Investment Token* representing the initial investment in the product. The client will have the opportunity to acquire more tokens during regular play. Their purpose will be explained later. 
+
 ## Playing the Game
 The game is played in three phases:
 1. Negotiation
@@ -63,7 +65,7 @@ With a firm deadline in hand, it is now the job of the *Development Team* to cre
 During this phase, the *Project Manager* turns feature guidelines into *Tasks* for the *Developers* and *Designers*. *Tasks* have their own cards, with decks for *Developers* and *Designers*, and include a difficulty, measured in number of rounds to complete.
 
 > #### Skill Aptitude (or lack thereof)
-> Each task has an associated skill requirement in order to complete. If the employee assigned the task does not have that required skill, then the difficulty of the task increases by one level (easy -> medium). If the skill required by the task happens to be the employee's specialty, on the other hand, then the difficulty of the task is reduced by one level (medium -> hard).
+> Each task has an associated skill requirement in order to complete. If the employee assigned the task does not have that required skill, then the difficulty of the task increases by one level (easy -> medium). If the skill required by the task happens to be the employee's specialty, on the other hand, then the difficulty of the task is reduced by one level (medium -> easy).
 
 Each round, a member of the *Development Team* may select one of their tasks and work on it. Some tasks rely on work done by another team member, and may demand that that other task reach a certain percentage of "done" before work may begin on it.
 
@@ -81,18 +83,40 @@ When a team member completes a task, they add it to a stack of completed tasks, 
 #### The Client
 The client's role during the development phase is by-and-large less complicated. During this phase the client may spend their turn:
 1. Securing more funding
-2. Making feature requests
-3. Testing / Reporting bugs
+2. Spending an *Investment Token*
+3. Making feature requests
+4. Testing / Reporting bugs
 
-Securing more funding grants the client the power to move up the deadline (unless countered by the project manager) or give them more leverage during the *Release* phase.
+##### Securing and Spending Funding
+Attempting to secure more funding provides the client the opportunity to acquire more *Investment Tokens*. The client can never lose these tokens, only gain them.
 
+To secure additional funding, the client must play a game of chance, using either coins or a die. The goal is to produce favorable flips or roll a number greater than the number of tokens already acquired. If using a coin, a maximum number of allowed flips must be set before play. If using a die, the number of sides is the natural limit.
+
+> #### Securing Funding Example
+> Given the client is using a six-sided die, if the client already has five tokens, they would need to roll a 6 on the die in order to succeed.
+
+During the *Development* phase, the client can spend their *Investment Tokens* to perform one of two actions: Move up the deadline by a week (five rounds) or move a requested feature into the *Product Brief*. A spent token cannot be used again, but continues to count when attempting to secure additional funding.
+
+##### Making Feature Requests and Bug Reports
 Making feature requests and reporting bugs generates more work for the *Development Team* in addition to the work requested in the *Product Brief*. *Feature Requests* are pulled from the same deck as before, whereas *Bug Reports* are pulled from the stack of completed tasks.
 
-In order to make a *Bug Report*, the client must test the product. This works similarly to drawing an *Event* card by a member of the *Development Team* i.e. the client must either flip a coin or roll a die, setting the conditions of a favorable outcome beforehand, and drawing a card in the case of an unfavorable outcome.
+In order to make a *Bug Report*, the client must first test the product. This works similarly to drawing an *Event* card by a member of the *Development Team* i.e. the client must either flip a coin or roll a die, setting the conditions of a favorable outcome beforehand, and drawing a card in the case of an unfavorable outcome.
 
 *Tasks* converted into *Bug Reports* are treated as one degree of difficulty lower than the original task. This stacks with an employee's aptitude.
 
-> #### What about doing nothing?
-> In addition to the previous options, the client may also choose to do nothing during their turn. This may seem like a waste, but it can also be beneficial. The goal of this game is to actually *produce* something; courting investors, making feature requests, and filing bug reports increases the pressure on the *Development Team*, and if they can't complete the client's product, then everyone loses.
+##### What about doing nothing?
+In addition to the previous options, the client may also choose to do nothing during their turn. This may seem like a waste, but it can also be beneficial. The goal of this game is to actually *produce* something; courting investors, making feature requests, and filing bug reports increases the pressure on the *Development Team*, and if they can't complete the client's product, then everyone loses.
 
 ### Release
+When the deadline is reached, the *Development* phase ends, and the *Release* phase begins. During this phase, the *Client* determines if the *Development Team* produced a product that fits the specifications of the *Product Brief*.
+
+At the very least, the *Development Team* needs to have implemented the base features laid out in the  *Product Brief* in order to claim that they have produced a complete product. This includes any feature requests that were moved into the *Product Brief* via the expenditure of *Investment Tokens*.
+
+Implementing all the base features produces an *Adequate Product*. Implementing any number of extraneous features produces a *Superior Product*. Failing to implement all of the base features results in an *Incomplete Product*, the only failure case.
+
+The *Client* and the *Development Team* win or lose together; the *Client* promised investors that a finished product would be created, and the *Development Team* promised the client that they could deliver said product.
+
+It can be argued that the *Client* won the game if they were able to get the *Development Team* to do more work in less time, or that the *Development Team* won by performing less work in more time, but in the end this is irrelevant.
+
+## Extended Play
+The game only really ends when everyone decides to stop playing. If the deadline has come and gone, and the product was successful, but there are still unfinished features on the table, the players have the option to negotiate an additional phase. All tokens (*Investment* and *Crunch*) are reset, finished features are marked as "Stable" and returned to their decks, a new deadline is agreed upon, and the game begins anew.
