@@ -1,0 +1,46 @@
+---
+- skill-name: Front-End Web
+  description: You have experience turning designs into browser-based interactive experiences, and communicating with server-side resources
+  flavor-text: 
+- skill-name: Back-End Web
+  description: You have experience architecting server-side systems, with a general knowledge of web services and session management
+  flavor-text:
+- skill-name: Front-End Desktop
+  description: You have experience turning designs into desktop-based interactive systems
+  flavor-text:
+- skill-name: Back-End Desktop
+  description: You have experience architecting systems for desktop-based applications, and communicating with server-side resources
+  flavor-text:
+- skill-name: Front-End Mobile
+  description: You have experience turning designs into mobile-based interactive experiences
+  flavor-text:
+- skill-name: Back-End Mobile
+  description: You have experience architecting systems for mobile-based applications, and communicating with server-side resources
+  flavor-text:
+- skill-name: Microservices
+  description: You have experience constructing and connecting microservices
+  flavor-text:
+- skill-name: Reactive Services
+  description: You have experience constructing reactive services, and understand "backpressure" and SSE
+  flavor-text:
+- skill-name: DevOps
+  description: You have experience setting up and maintaining reproducible environments for development and production
+  flavor-text:
+- skill-name: Network Optimization
+  description: You have experience with and understand various network protocols and how to optimize data for transmission over them
+  flavor-text:
+- skill-name: Server Administration
+  description: You have experience installing and managing servers, server operating systems, and server applications
+  flavor-text:
+- skill-name: Database Administration
+  description: You have experience designing, implementing, and managing databases
+  flavor-text:
+- skill-name: Test-Driven Development
+  description: You have experience writing automated tests for evaluating correctness of code
+  flavor-text:
+- skill-name: Documentation Generation
+  description: You have experience creating documentation, both hand-crafted and automated
+  flavor-text:
+- skill-name: Version Control Management
+  description: You have experience managing source code version control systems
+  flavor-text:

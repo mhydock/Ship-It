@@ -1,0 +1,37 @@
+---
+- skill-name: Image Manipulation
+  description: You have experience altering, fixing, distorting, compositing digital imagery
+  flavor-text:
+- skill-name: Vector Graphics
+  description: You have experience creating and manipulating scalable vector graphics
+  flavor-text:
+- skill-name: Desktop Publishing
+  description: You have experience with layout and creating periodicals (magazines, newsletters, etc)
+  flavor-text:
+- skill-name: Video Editing
+  description: You have experience editing and arranging footage, transforming parts into a whole
+  flavor-text:
+- skill-name: Video Recording
+  description: You have experience recording footage, and finding the right lighting, angle, etc
+  flavor-text:
+- skill-name: Audio Editing
+  description: You have experience balancing and cleaning up audio, layering tracks, adding effects, etc
+  flavor-text:
+- skill-name: Audio Recording
+  description: You have experience setting up studios and recording equipment, identifying a "good" take, etc
+  flavor-text:
+- skill-name: 3D Modeling
+  description: You have experience sculpting and texturing 3D digital models
+  flavor-text:
+- skill-name: 3D Animation
+  description: You have experience rigging and animating 3D digital models
+  flavor-text:
+- skill-name: 2D Animation
+  description: You have experience creating 2D animations, traditional and digital
+  flavor-text:
+- skill-name: Iconography
+  description: You have experience designing icons and logos with cultural relevance
+  flavor-text:
+- skill-name: Typography
+  description: You have experience designing and selecting fonts, and arranging text to enhance legibility
+  flavor-text:
