@@ -1,0 +1,52 @@
+---
+- trait-name: Slow-Burner
+  description: You have twice as many _Crunch Tokens_, but you take twice as long to recover when you've spent them all.
+  flavor-text:
+- trait-name: Flammable
+  description: You have only three _Crunch Tokens_, but you only take three days to recover when you've spent them all.
+  flavor-text:
+- trait-name: Jack-of-all-Trades
+  description: You can select skill cards from any role's skill card deck.
+  flavor-text:
+- trait-name: Master of None
+  description: You don't have any favored skills.
+  flavor-text:
+- trait-name: Prodigy
+  description: You can have two favored skills.
+  flavor-text:
+- trait-name: Resiliant
+  description: You don't get sick.
+  flavor-text:
+- trait-name: Plague Rat
+  description: You can immedately recover from a cold, by giving it to someone else.
+  flavor-text:
+- trait-name: 360 No-Scope
+  description: Nothing is ever "out of scope". Sometimes you implement features that weren't even asked for. 
+  flavor-text:
+- trait-name: Management Material
+  description: You can offload your tasks onto other players.
+  flavor-text:
+- trait-name: Multitasker
+  description: You can work on two easy-level (or lower) tasks at the same time.
+  flavor-text:
+- trait-name: Intern
+  description: Days are randomly wasted doing pointless tasks, like getting food, or researching tech no one will use.
+  flavor-text:
+- trait-name: Kind of a Jerk
+  description: Tasks that rely on your work increase in one level of difficulty.
+  flavor-text:
+- trait-name: Kind of a Hard-ass
+  description: You can compell other co-workers to pull overtime.
+  flavor-text:
+- trait-name: Easy-Going
+  description: Your reassuring attitude gives clients the confidence to request more features.
+  flavor-text:
+- trait-name: Technical Writer
+  description: Tasks that rely on your work decrease in one level of difficulty.
+  flavor-text:
+- trait-name: Documentation Guru
+  description: You don't take a difficulty penalty for skills you don't have.
+  flavor-text:
+- trait-name: Version-control Guru
+  description: You never lose work, and can help others rescue theirs.
+  flavor-text:
