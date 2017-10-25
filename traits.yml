@@ -14,6 +14,9 @@
 - trait-name: Prodigy
   description: You can have two favored skills.
   flavor-text:
+- trait-name: Quick Learner
+  description: You can spend a week to pick up a new skill, or promote an old one, at the expense of another.
+  flavor-text:
 - trait-name: Resiliant
   description: You don't get sick.
   flavor-text:
@@ -22,6 +25,9 @@
   flavor-text:
 - trait-name: 360 No-Scope
   description: Nothing is ever "out of scope". Sometimes you implement features that weren't even asked for. 
+  flavor-text:
+- trait-name: Scope Fundamentalist
+  description: You take the scope very seriously, and adamantly refuse to allow expansion of the scope.
   flavor-text:
 - trait-name: Management Material
   description: You can offload your tasks onto other players.
