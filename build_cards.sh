@@ -14,4 +14,5 @@ fi
 python fill_tex_templates.py
 
 cd rendered
-lualatex ../rendered/skills.tex
+lualatex ../rendered/designer.skills.tex
+lualatex ../rendered/developer.skills.tex
