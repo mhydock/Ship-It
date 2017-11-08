@@ -19,7 +19,7 @@ latex_jinja_env = jinja2.Environment(
 )
 
 template = latex_jinja_env.get_template('templates/skills.template.tex')
-output = open('prerendered/skills.tex', 'w')
+output = open('rendered/skills.tex', 'w')
 
 skills = open('designer.skills.yml', 'r')
 cards = load(skills)
