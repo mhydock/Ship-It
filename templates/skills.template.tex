@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper]{memoir}
+
+\setstocksize{88mm}{63mm} % UK Stock size
+\setpagecc{88mm}{63mm}{*}
+\settypeblocksize{68mm}{53mm}{*}
+\setulmargins{10mm}{*}{*}
+\setlrmargins{5mm}{*}{*}
+\usepackage{xcolor}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+
+\usepackage{fontspec}
+\setmainfont[BoldFont={GOTHICB.ttf}, BoldItalicFont={GOTHICBI.ttf}, ItalicFont={GOTHICI.ttf}]{GOTHIC.ttf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\begin{document}
+
+\BLOCK{ for card in cards }
+    \begin{Spacing}{0.75}%
+        \noindent
+        \Large
+        \textbf{\VAR{card['skill-name']}}\\[3pt]
+        \scriptsize\color{gray}\VAR{card_type}\\ 
+        \rule{\textwidth}{.3mm}\\
+        
+        \vspace{3mm}
+        \noindent
+        \begin{minipage}[t]{53mm}
+            \begin{flushleft}
+            {
+                \normalsize
+                \begin{Spacing}{1}%
+                \color{black}\textrm{\VAR{card['description'] if card['description'] else ''}}\\
+                \end{Spacing}
+            }
+            \end{flushleft}
+        \end{minipage}
+
+        \vspace{5mm}
+        \noindent
+        \begin{minipage}[t]{53mm}
+            \begin{flushleft}
+            {
+                \normalsize
+                \begin{Spacing}{1}%
+                \color{gray}\textit{\VAR{"``" + card['flavor-text'] + "''" if card['flavor-text'] else ''}}\\
+                \end{Spacing}
+            }
+            \end{flushleft}
+        \end{minipage}
+    \end{Spacing}
+    \clearpage
+\BLOCK{ endfor }
+
+\end{document}
