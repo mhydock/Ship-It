@@ -1,24 +1,24 @@
 ---
 - skill-name: Image Manipulation
   description: You have experience altering, fixing, distorting, compositing digital imagery
-  flavor-text:
+  flavor-text: Reality is but an illusion
 - skill-name: Vector Graphics
   description: You have experience creating and manipulating scalable vector graphics
   flavor-text:
 - skill-name: Desktop Publishing
-  description: You have experience with layout and creating periodicals (magazines, newsletters, etc)
+  description: You have experience with article layout and creating periodicals (magazines, newsletters, etc.)
   flavor-text:
 - skill-name: Video Editing
   description: You have experience editing and arranging footage, transforming parts into a whole
   flavor-text:
 - skill-name: Video Recording
-  description: You have experience recording footage, and finding the right lighting, angle, etc
+  description: You have experience recording footage, arranging scenes, finding the right lighting/angle
   flavor-text:
 - skill-name: Audio Editing
-  description: You have experience balancing and cleaning up audio, layering tracks, adding effects, etc
+  description: You have experience balancing and cleaning up audio, layering tracks, adding effects
   flavor-text:
 - skill-name: Audio Recording
-  description: You have experience setting up studios and recording equipment, identifying a "good" take, etc
+  description: You have experience setting up studios and recording equipment, identifying a good take
   flavor-text:
 - skill-name: 3D Modeling
   description: You have experience sculpting and texturing 3D digital models
