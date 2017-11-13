@@ -22,7 +22,7 @@
 \BLOCK{ for card in cards }
     \begin{Spacing}{0.75}%
         \noindent
-        \Large
+        \VAR{ '\Large' if card['skill-name']|length < 23 else '\large' }
         \textbf{\VAR{card['skill-name']}}\\[3pt]
         \scriptsize\color{gray}\VAR{card_type}\\ 
         \rule{\textwidth}{.3mm}\\
