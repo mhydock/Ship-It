@@ -20,7 +20,7 @@ latex_jinja_env = jinja2.Environment(
 
 template = latex_jinja_env.get_template('../templates/skills.template.tex')
 
-skills = open('../designer.skills.yml', 'r')
+skills = open('../definitions/designer.skills.yml', 'r')
 cards = load(skills)
 skills.close()
 
@@ -28,7 +28,7 @@ output = open('../rendered/designer.skills.tex', 'w')
 output.write(template.render(cards=cards, card_type='Designer Skill'))
 output.close()
 
-skills = open('../developer.skills.yml', 'r')
+skills = open('../definitions/developer.skills.yml', 'r')
 cards = load(skills)
 skills.close()
 
